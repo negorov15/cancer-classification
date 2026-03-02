@@ -10,7 +10,7 @@ The goal of this project is to build and evaluate machine-learning classifiers t
 
 Model performance is evaluated on a held-out dataset, examining feature importance alongside overall diagnostic accuracy.
 
-Contents
+## Contents
 - `data/` — The tumor-educated platelet RNA-Seq dataset published by ([Best et al. (2015)](https://www.sciencedirect.com/science/article/pii/S1535610815003499?via%3Dihub)) (primary: `GSE68086_TEP_data_matrix.txt`). The dataset consists of RNA-sequencing profiles of blood platelets from 228 cancer patients (spanning six tumor types) and 55 healthy controls.
 
 - `source/` — analysis and model notebooks: `RF_classifier.ipynb`, `ann_classifier_cancer.ipynb`. Each notebook performs preprocessing, trains a model (Random Forest or an ANN), and reports standard evaluation metrics such as accuracy, confusion matrix, and ROC AUC.
@@ -28,14 +28,7 @@ source venv/bin/activate
 2. Install dependencies:
 
 ```bash
-# Example: install typical data-science packages
 pip install -r requirements.txt
-```
-
-If a `requirements.txt` is not present, install packages used in the notebooks, for example:
-
-```bash
-pip install jupyterlab numpy pandas scikit-learn tensorflow matplotlib seaborn
 ```
 
 3. Launch Jupyter and open a notebook from `source/`:
@@ -50,3 +43,6 @@ jupyter notebook
 - Activate the virtual environment and install dependencies.
 - Use the run scripts in `scripts/` to execute the notebooks headlessly and produce executed notebooks with outputs.
 - After running the scripts you'll get executed notebooks (filename suffix `_executed.ipynb`) containing the training logs, evaluation metrics, and plots. 
+
+## Authors
+Nikolai Egorov, Mauriz Lichtenshtein
