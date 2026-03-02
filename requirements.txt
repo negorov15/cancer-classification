@@ -1,0 +1,10 @@
+jupyterlab
+numpy
+pandas
+scikit-learn
+tensorflow
+matplotlib
+seaborn
+nbformat
+nbconvert
+openpyxl

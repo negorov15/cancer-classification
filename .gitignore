@@ -1,0 +1,12 @@
+# Ignore Python/Jupyter temporary files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Ignore OS specific files
+.DS_Store
+Thumbs.db
+
+# Ignore environment/secret files
+.env
+venv/
