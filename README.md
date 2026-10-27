@@ -10,10 +10,10 @@ The goal of this project is to build and evaluate machine-learning classifiers t
 
 Model performance is evaluated on a held-out dataset, examining feature importance alongside overall diagnostic accuracy.
 
-## Contents
-- `data/` — The tumor-educated platelet RNA-Seq dataset published by ([Best et al. (2015)](https://www.sciencedirect.com/science/article/pii/S1535610815003499?via%3Dihub)) (primary: `GSE68086_TEP_data_matrix.txt`). The dataset consists of RNA-sequencing profiles of blood platelets from 228 cancer patients (spanning six tumor types) and 55 healthy controls.
+The tumor-educated platelet RNA-Seq dataset is published by ([Best et al. (2015)](https://www.sciencedirect.com/science/article/pii/S1535610815003499?via%3Dihub)) (primary: `GSE68086_TEP_data_matrix.txt`). The dataset consists of RNA-sequencing profiles of blood platelets from 228 cancer patients (spanning six tumor types) and 55 healthy controls.
 
-- `source/` — analysis and model notebooks: `RF_classifier.ipynb`, `ann_classifier_cancer.ipynb`. Each notebook performs preprocessing, trains a model (Random Forest or an ANN), and reports standard evaluation metrics such as accuracy, confusion matrix, and ROC AUC.
+## Contents
+Analysis and model notebooks: `RF_classifier.ipynb`, `ann_classifier_cancer.ipynb`. Each notebook performs preprocessing, trains a model (Random Forest or an ANN), and reports standard evaluation metrics such as accuracy, confusion matrix, and ROC AUC.
 
 
 ## Quick start
